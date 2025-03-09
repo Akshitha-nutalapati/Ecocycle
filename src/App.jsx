@@ -2,7 +2,7 @@ import Awards from "./components/Awards";
 import ITvendors from "./components/ITvendors";
 import Upcomingeve from "./components/Upcomingeve";
 import Latestnews from "./components/Latestnews";
-import Solving from "./components/solving";
+import Solving from "./components/Solving";
 import Howwedo from "./components/Howwedo";
 import Whatwedo from "./components/Whatwedo";
 import Heading from "./components/Heading";
