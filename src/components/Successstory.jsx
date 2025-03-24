@@ -7,22 +7,22 @@ import "swiper/css/pagination";
 
 const successStories = [
   {
-    description: "How Finolity's Consultation revolutionized unacademy's Success",
+    description: "In collaboration with local municipalities, we successfully built roads using recycled plastic materials.",
     title:
-      "CASE STUDIES,DIGITAL TRANSFORMATION,IT CONSULTING.",
-    image: "https://finolity.com/wp-content/uploads/2024/08/leaders-1536x886.webp",
+      "PLASTIC ROADS",
+    image: "https://tse4.mm.bing.net/th?id=OIP.aHkzcvD_uhM033syGpkC0AHaEK&pid=Api&P=0&h=180",
   },
   {
-    title: "CLOUD HOSTING",
+    title: "PAVING THE WAY WITH PLASTIC BRICKS",
     description:
-      "Finolity boosts MM Deemed university with SOLIDWORKS,Smart manufacturing lab.",
-    image: "https://finolity.com/wp-content/uploads/2023/03/Untitled-design-3.png",
+      "We developed high-strength plastic bricks and paving tiles, which have been used in sidewalks, public spaces.",
+    image: "https://tse1.mm.bing.net/th?id=OIP.3dU_paxMuR6Z9NhuXdcX-wHaEK&pid=Api&P=0&h=180",
   },
   {
-    title: "IT CONSULTING",
+    title: "RECOGNIZED FOR INNOVATION IN SUSTAINABILITY",
     description:
-      "Unlocking Success: The Crucial Role of Design in the Digital Era with Finolity",
-    image: "https://finolity.com/wp-content/uploads/2023/03/Untitled-design-4.png",
+      "Our efforts have been acknowledged by environmental organizations, highlighting  impact on sustainable infrastructure.",
+    image: "https://tse3.mm.bing.net/th?id=OIP.yBUFIQtyO87urLsLJkH0CgHaFK&pid=Api&P=0&h=180",
   },
 ];
 

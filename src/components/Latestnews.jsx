@@ -2,27 +2,27 @@ import React from "react";
 
 const newsData = [
   {
-    title: "Empowering Universities",
-    description: "Finolity implemented digital solutions at Maharishi Markandeshwar University.",
-    image: "https://finolity.com/wp-content/uploads/2025/01/ABP-NEWS.jpg", // Replace with actual image
+    title: "Educational Guidelines",
+    description: "The Programme Changing Lives and Fighting Plastic Pollution in India.",
+    image: "https://tse4.mm.bing.net/th?id=OIP.7ZIgLc45CiuacJ5K7gHPUQHaEK&pid=Api&P=0&h=180", 
     link: "https://news.abplive.com/brand-wire/empowering-universities-finolity-s-digital-campus-program-and-strategic-partnerships-1659027",
   },
   {
-    title: "Adobe Certified Reseller",
-    description: "Finolity is now an Adobe Certified Reseller, offering advanced software solutions.",
-    image: "https://finolity.com/wp-content/uploads/2025/01/ABP-NEWS-1.jpg",
+    title: "Workshop Resources",
+    description: "The Programme Changing Lives and Fighting Plastic Pollution in India.",
+    image: "https://tse4.mm.bing.net/th?id=OIP.9KbKkcKqVpi6Emijyaq61AHaEK&pid=Api&P=0&h=180",
     link: "https://finolity.com/#",
   },
   {
-    title: "Launching 'Namestair'",
-    description: "A new brand providing affordable cloud services and domain solutions.",
-    image: "https://finolity.com/wp-content/uploads/2025/01/ABP-NEWS-2.jpg",
+    title: "Global Intiatives",
+    description: "The Programme Changing Lives and Fighting Plastic Pollution in India.",
+    image: "https://tse2.mm.bing.net/th?id=OIP.ftoD7cHceH_334J1X5BrEwHaEK&pid=Api&P=0&h=180",
     link: "https://finolity.com/#",
   },
   {
-    title: "Corel Partner",
-    description: "Finolity Becomes Authorized Corel Partner, Offering Cutting-Edge Software Solutions to Businesses",
-    image: "https://finolity.com/wp-content/uploads/2025/01/ABP-NEWS-4.jpg",
+    title: "recycling Hope",
+    description: "The Programme Changing Lives and Fighting Plastic Pollution in India",
+    image: "https://tse4.mm.bing.net/th?id=OIP.BshSyGkjb4i1pY6tZ5O5RgHaEK&pid=Api&P=0&h=180",
     link: "https://finolity.com/#",
   },
 ];
@@ -31,7 +31,7 @@ const NewsSection = () => {
   return (
     
     <div className="p-6 bg-black-100 text-center">
-      <h2 className="text-purple-200 text-2xl  mb-4">LATEST NEWS</h2>
+      <h2 className="text-purple-200 text-2xl  mb-4">RESOURCES</h2>
       <div className=" grid grid-cols-1 sm:grid-cols-4 gap-6">
         {newsData.map((news, index) => (
           <div key={index} className=" bg-gray-900 p-4 rounded-lg shadow-md">

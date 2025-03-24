@@ -2,25 +2,25 @@ import React from "react";
 
 const events = [
   {
-    title: "AI Centre of Excellence in Education 2025",
+    title: "Residential Training Program on new urban Agenda",
     date: "SATURDAY,MARCH29",
-    description: "Discover how Finolity and Ingram Micro leverage Microsoft Teams to transform hybrid work strategies, improve collaboration, and drive productivity for businesses.",
-    image: "https://finolity.com/wp-content/uploads/2025/02/ai_event.jpg", // Replace with actual image URL
-    link: "https://finolity.com/events/ai-centre-of-excellence-in-education-transforming-learning-with-innovation-introduction/",
+    description: "This initiative aims to dedicate one lakh crore for sustainable and inclusive urban transformation.",
+    image: "https://tse4.mm.bing.net/th?id=OIP.LZFURTlJC2nd3D5S6_nEZgHaEK&pid=Api&P=0&h=180",
+    link: "https://www.cseindia.org/residential-training-programme-on-the-new-urban-agenda-12653#:~:text=This%20initiative%20aims%20to%20dedicate,be%20integrated%20with%20this%20initiative",
   },
   {
-    title: "Join Finolity Green Horizons Summits 2025",
+    title: "Workshop on Urban infrastructure in a changing climate.",
     date: "SUNDAY,MAY25",
-    description: "Join the Finolity Green Horizons Summit 2025 to explore innovative solutions for sustainability and green technology. Discover actionable insights and network with industry leaders driving a cleaner, greener future.",
-    image: "https://finolity.com/wp-content/uploads/2023/04/visuals-Y4qzW3AsvqI-unsplash.jpg",
-    link: "https://finolity.com/events/join-finolity-green-horizons-summit-2025/",
+    description: "Facilitators:gautam sonti.",
+    image: "https://tse2.mm.bing.net/th?id=OIP.HHM9RYFjt0ZnL6axqKGxmAHaD-&pid=Api&P=0&h=180",
+    link: "http://esgindia.org/new/events/workshop-on-urban-infrastructure-in-a-changing-climate/",
   },
   {
-    title: "Finolity Ecosystem partnership Summit",
+    title: "Raising a Toast to citizen groups.",
     date: "SUNDAY,SEPTEMBER 14",
-    description: "Join the Finolity Ecosystem Partnerships Summit to collaborate with industry leaders and explore opportunities in building robust, innovative ecosystems. Discover strategies to foster growth, partnerships, and technological advancements.",
-    image: "https://finolity.com/wp-content/uploads/2023/04/evangeline-shaw-BdV23FLkmxQ-unsplash.jpg",
-    link: "https://finolity.com/events/finolity-ecosystem-partnerships-summit/",
+    description: "No more about a citizen groups feted at the indian civic summit.",
+    image: "https://tse1.mm.bing.net/th?id=OIP.rVrgXajlXixODBGEp5GDVAHaDt&pid=Api&P=0&h=180",
+    link: "https://citizenmatters.in/citizen-matters-spotlight-groups-fighting-for-climate-resilient-cities/",
   },
 ];
 

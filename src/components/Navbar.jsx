@@ -14,15 +14,15 @@ const Navbar = () => {
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img className="h-10 w-50 mr-2" src="https://finolity.com/wp-content/uploads/2025/03/cropped-Untitled-design-38.png" alt="logo"/>
+                        <img className="h-10 w-55 mr-2" src="https://tse3.mm.bing.net/th?id=OIP.XFGAj_GdwupqZowk5AQrtQHaE6&pid=Api&P=0&h=180" alt="logo"/>
                         <span></span>
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
-                    <a href="#" className="hover:text-violet-300">Home</a>
-                    <a href="#" className="hover:text-violet-300">Services</a>
-                    <a href="#" className="hover:text-violet-300">Industries</a>
-                    <a href="#" className="hover:text-violet-300">Market research</a>
-                    <a href="#" className="hover:text-violet-300">Brands</a>
+                    <a href="#" onClick={() => goToSlide(1)} className="hover:text-violet-300" >Home</a>
+                    <a href="#" onclick={() => goToSlide(2)} className="hover:text-violet-300"> Services</a>
+                    <a href="#" className="hover:text-violet-300">Resources</a>
+                    <a href="#" className="hover:text-violet-300">Volunteering</a>
+                    <a href="#" className="hover:text-violet-300">About us</a>
                     </ul>
                     <div className='hidden lg:flex justify center space-x-12 items-center'>
                         <a href="#" className="py-2 px-3 border rounded-md">
