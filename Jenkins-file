@@ -1,0 +1,39 @@
+pipeline {
+  agent { docker { image 'node:16-alpine' } }
+
+  stages {
+    stage('Checkout Code') {
+      steps {
+        git branch: 'main',
+            url: 'https://github.com/Akshitha-nutalapati/Ecocycle.git'
+      }
+    }
+
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm ci'   // or 'npm install' if package-lock.json not present
+      }
+    }
+
+    stage('Build React App') {
+      steps {
+        sh 'npm run build'
+      }
+    }
+
+    stage('Deploy to Server') {
+      steps {
+        sshagent(['app-server-key']) {
+          sh '''
+            # remove old files
+            ssh -o StrictHostKeyChecking=no ubuntu@<APP_PUBLIC_IP> "sudo rm -rf /var/www/html/*"
+            # copy new build
+            scp -o StrictHostKeyChecking=no -r build/* ubuntu@<APP_PUBLIC_IP>:/var/www/html/
+            # restart nginx (or web server) on remote
+            ssh -o StrictHostKeyChecking=no ubuntu@<APP_PUBLIC_IP> "sudo systemctl restart nginx"
+          '''
+        }
+      }
+    }
+  }
+}
