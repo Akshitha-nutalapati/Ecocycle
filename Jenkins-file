@@ -26,11 +26,11 @@ pipeline {
         sshagent(['app-server-key']) {
           sh '''
             # remove old files
-            ssh -o StrictHostKeyChecking=no ubuntu@<APP_PUBLIC_IP> "sudo rm -rf /var/www/html/*"
+            ssh -o StrictHostKeyChecking=no ubuntu@13.204.46.42 "sudo rm -rf /var/www/html/*"
             # copy new build
-            scp -o StrictHostKeyChecking=no -r build/* ubuntu@<APP_PUBLIC_IP>:/var/www/html/
+            scp -o StrictHostKeyChecking=no -r build/* ubuntu@13.204.46.42:/var/www/html/
             # restart nginx (or web server) on remote
-            ssh -o StrictHostKeyChecking=no ubuntu@<APP_PUBLIC_IP> "sudo systemctl restart nginx"
+            ssh -o StrictHostKeyChecking=no ubuntu@13.204.46.42 "sudo systemctl restart nginx"
           '''
         }
       }
