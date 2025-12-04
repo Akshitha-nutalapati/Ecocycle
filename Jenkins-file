@@ -1,5 +1,7 @@
 pipeline {
-  agent { docker { image 'node:16-alpine' } }
+  agent { docker { image 'node:20-alpine' 
+ args '-u 1000:1000' // run as user with UID 1000
+} }
 
   stages {
     stage('Checkout Code') {
@@ -10,10 +12,12 @@ pipeline {
     }
 
     stage('Install Dependencies') {
-      steps {
-        sh 'npm ci'   // or 'npm install' if package-lock.json not present
-      }
+    steps {
+        sh 'npm config set cache $WORKSPACE/.npm-cache --global'
+        sh 'npm ci'
     }
+}
+
 
     stage('Build React App') {
       steps {
